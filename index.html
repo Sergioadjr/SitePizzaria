@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/3df637a2f2.js" crossorigin="anonymous"></script>
     <title>Pizzaria</title>
 </head>
 <body>
@@ -16,16 +17,23 @@
         </div>
         <nav>
             <ul class="list-menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre nós</a></li>
-                <li><a href="#">Cardápio</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobrenos">Sobre nós</a></li>
+                <li><a href="#cardapio">Cardápio</a></li>
                 <li><a href="#">Contatos</a></li>
-                <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                <li><a href="#contato"><i class="bi bi-facebook"></i></a></li>
                 <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
                 <li><a href="#"><i class="bi bi-instagram"></i></a></li>
                 <li><a href="#"><i class="bi bi-cart-fill"></i></a></li>
             </ul>
         </nav>
+
+        <div class="menu-toggle">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </div>
+
     </header>
     <section class="first-section">
         <div class="conteudo-principal">
@@ -37,5 +45,143 @@
             </div>
         </div>
     </section>
+
+    <section class="sobre-nos" id="sobrenos"> 
+        <div class="main">
+            <div class="contentsobre">
+                <h2>Sobre nós</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid natus fuga architecto tenetur magnam voluptatem debitis magni, vitae blanditiis animi assumenda veniam optio omnis similique aspernatur deserunt ducimus culpa id.
+                Dolor voluptatibus consequatur, distinctio architecto accusantium eius tenetur officiis vero doloribus iusto quo. Explicabo unde eum accusamus sit possimus voluptatum non nemo quod, minima mollitia autem rerum magni facere cupiditate.
+                Eum a rem harum neque? Et minus debitis possimus excepturi, quisquam aliquam ducimus iure dolore doloremque accusamus natus veritatis esse quas. Harum accusantium, tenetur dolorum quidem dicta quas eius. Iste.
+                Ratione iusto dolore dolor nisi illo voluptate est itaque, facilis exercitationem cumque ipsam magnam distinctio molestias numquam nesciunt similique consectetur architecto quisquam ipsum enim at natus. Quod aut voluptatum quo.
+                Nobis deleniti doloribus illd dolorum tenetur inventore architecto at quam repellendus, quidem earum nisi! Similique vel natus perferendis illo, sapiente harum molestiae blanditiis architecto.</p>
+            </div>     
+            <div class="img-cozinha">
+                <img src="./img/cozinha.jpg" alt="Imagens da cozinha">
+            </div>
+        </div>    
+    </section>
+
+    <section class="cardapio" id="cardapio">
+        <h2>Cardápio</h2>
+
+            <div class="itens-cardapio">
+                <div class="frango">
+                    <img src="./img/frango-removebg-preview.png" alt="pizza de frango">
+                    <div class="info">
+                        <h3>Frango</h3>
+                        <h4>6 fatias <span>R$40,00</span></h4>
+                        <h4>8 fatias <span>R$50,00</span></h4>
+                        <h4>12 fatias <span>R$60,00</span></h4>
+                        <button class="pedir">Selecionar</button>
+                    </div>   
+                </div>
+                <div class="calabresa">
+                    <img src="./img/calabresa-removebg-preview.png" alt="pizza de calabresa">
+                    <div class="info">
+                        <h3>Calabresa</h3>
+                        <h4>6 fatias <span>R$40,00</span></h4>
+                        <h4>8 fatias <span>R$50,00</span></h4>
+                        <h4>12 fatias <span>R$60,00</span></h4>
+                        <button class="pedir">Selecionar</button>
+                    </div> 
+                
+                </div>
+                <div class="portuguesa">
+                    <img src="./img/portuguesa-removebg-preview.png" alt="pizza de portuguesa">
+                    <div class="info">
+                        <h3>Portuguesa</h3>
+                        <h4>6 fatias <span>R$40,00</span></h4>
+                        <h4>8 fatias <span>R$50,00</span></h4>
+                        <h4>12 fatias <span>R$60,00</span></h4>
+                        <button class="pedir">Selecionar</button>
+                    </div> 
+                
+                </div>
+                <div class="strogonoff">
+                    <img src="./img/strogonoff-removebg-preview.png" alt="pizza de strogonoff">
+                    <div class="info">
+                        <h3>Strogonoff</h3>
+                        <h4>6 fatias <span>R$40,00</span></h4>
+                        <h4>8 fatias <span>R$50,00</span></h4>
+                        <h4>12 fatias <span>R$60,00</span></h4>
+                        <button class="pedir">Selecionar</button>
+                    </div> 
+                
+                </div>
+                <div class="ChocolatePreto">
+                    <img src="./img/chocolate-removebg-preview.png" alt="pizza doce">
+                    <div class="info">
+                        <h3>Chocolate Preto</h3>
+                        <h4>6 fatias <span>R$40,00</span></h4>
+                        <h4>8 fatias <span>R$50,00</span></h4>
+                        <h4>12 fatias <span>R$60,00</span></h4>
+                        <button class="pedir">Selecionar</button>
+                    </div> 
+                
+                </div>
+                <div class="sensacao">
+                    <img src="./img/sensacao-removebg-preview.png" alt="pizza doce">
+                    <div class="info">
+                        <h3>Sensação</h3>
+                        <h4>6 fatias <span>R$40,00</span></h4>
+                        <h4>8 fatias <span>R$50,00</span></h4>
+                        <h4>12 fatias <span>R$60,00</span></h4>
+                        <button class="pedir">Selecionar</button>
+                    </div> 
+                
+                </div>
+                <div class="confete">
+                    <img src="./img/confete-removebg-preview.png" alt="pizza doce">
+                    <div class="info">
+                        <h3>Confete</h3>
+                        <h4>6 fatias <span>R$40,00</span></h4>
+                        <h4>8 fatias <span>R$50,00</span></h4>
+                        <h4>12 fatias <span>R$60,00</span></h4>
+                        <button class="pedir">Selecionar</button>
+                    </div> 
+                
+                </div>
+                <div class="prestigio">
+                    <img src="./img/prestigio-removebg-preview.png" alt="pizza doce">
+                    <div class="info">
+                        <h3>Prestigio</h3>
+                        <h4>6 fatias <span>R$40,00</span></h4>
+                        <h4>8 fatias <span>R$50,00</span></h4>
+                        <h4>12 fatias <span>R$60,00</span></h4>
+                        <button class="pedir">Selecionar</button>
+                    </div> 
+                
+                </div>
+                
+            </div>
+
+    </section>
+
+    <section class="contatos" id="contatos">
+        <h3>Contatos</h3>
+        <div class="contatos-secao">
+            <div>
+                <i class="fas fa-phone"></i>
+                <span>(67) 99999-0000</span>
+            </div>
+            <div>
+                <i class="fab fa-instagram"></i>
+                <span>@sergio_adjr</span>
+            </div>
+            <div>
+                <i class="fab fa-facebook-f"></i>
+                <span>Sergio Augusto David Jr</span>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h4>Desenvolvido por | @Sergio </h4>
+    </footer>
+
+    <script src="./script.js"></script>
+
+
+
 </body>
 </html>
